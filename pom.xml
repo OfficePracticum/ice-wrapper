@@ -6,7 +6,7 @@
 
     <groupId>com.connexin.immunization</groupId>
     <artifactId>ice-wrapper</artifactId>
-    <version>1.15.0</version>
+    <version>1.16.0</version>
   
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -190,6 +190,8 @@
                                      basedir="${project.basedir}/src/main/resources/rules/v1.39.2.2" />
                                 <zip destfile="${project.basedir}/src/main/resources/rules/packaged/v1.39.2.3.zip"
                                      basedir="${project.basedir}/src/main/resources/rules/v1.39.2.3" />
+                                 <zip destfile="${project.basedir}/src/main/resources/rules/packaged/v1.39.2.4.zip"
+                                     basedir="${project.basedir}/src/main/resources/rules/v1.39.2.4" />
                             </target>
                         </configuration>
                     </execution>
